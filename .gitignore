@@ -13,9 +13,11 @@ log/
 
 # Local media and archives
 *.zip
-*.mp4
 *.pptx
-docs/archive/
+*.pdf
+docs/archive/**
+!docs/
+!docs/*.mp4
 
 # Editor
 .vscode/
