@@ -17,7 +17,6 @@ log/
 *.pdf
 docs/archive/**
 !docs/
-!docs/*.mp4
 
 # Editor
 .vscode/

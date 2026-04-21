@@ -112,6 +112,6 @@ ros2 run eye_in_hand orchestrator
 ## 참고
 
 - 현재 패키지명은 기능 기준으로 `eye_in_hand`, `eye_in_hand_interfaces`로 정리했습니다.
-- 데모 영상은 `docs/eye-in-hand-visual-servoing-demo-video.mp4`로 관리합니다.
+- 데모 영상은 저장소 밖 링크나 별도 배포 채널로 공유하는 것을 권장합니다.
 - 발표자료와 압축본은 로컬 `docs/archive/`에 `eye-in-hand-visual-servoing-*` 형식으로 정리했습니다.
 - `data/`는 필요 시 세션 로그나 로컬 측정 데이터를 두는 선택적 로컬 디렉토리입니다.
