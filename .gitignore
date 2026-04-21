@@ -13,6 +13,7 @@ log/
 
 # Local media and archives
 *.zip
+*.mp4
 *.pptx
 *.pdf
 docs/archive/**
