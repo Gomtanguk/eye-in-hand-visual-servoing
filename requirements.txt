@@ -1,0 +1,28 @@
+# pip requirements for eye-in-hand-visual-servoing
+# ROS 2 packages such as rclpy, sensor_msgs, cv_bridge, launch and dsr_msgs2
+# should be installed via apt/rosdep, not via pip here.
+
+# Numeric / vision
+numpy>=1.23
+scipy>=1.9
+opencv-python>=4.8
+
+# Models / inference
+ultralytics>=8.1
+torch>=2.1
+
+# UI
+PyQt5>=5.15
+
+# Auth / speech / wake word
+python-dotenv>=1.0
+openai>=1.0
+sounddevice>=0.4
+openwakeword>=0.6
+
+# LLM-based keyword extraction
+langchain>=0.2
+langchain-openai>=0.1
+
+# Device / peripheral I/O
+pyserial>=3.5
