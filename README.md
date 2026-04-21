@@ -2,11 +2,16 @@
 
 카메라를 엔드이펙터에 장착한 Eye-in-Hand 구성에서, 객체 탐지와 추적 결과를 이용해 로봇 TCP를 실시간 추종시키는 ROS 2 기반 협동로봇 프로젝트입니다. 인증 액션, UI, 로깅, 태스크 노드까지 포함한 통합 구성을 목표로 합니다.
 
+## Quick Summary
+
+- Domain: Eye-in-Hand 비전 서보잉과 인증 기반 태스크 자동화
+- Stack: ROS 2 Humble, Python, YOLO, ByteTrack, Doosan ROS 2, PyQt
+- Key Packages: `eye_in_hand`, `eye_in_hand_interfaces`, `doosan-robot2`
+
 ## 구조
 
 ```text
 eye-in-hand-visual-servoing/
-├── data/
 ├── docs/
 │   └── archive/
 ├── src/
@@ -107,5 +112,5 @@ ros2 run eye_in_hand orchestrator
 ## 참고
 
 - 현재 패키지명은 기능 기준으로 `eye_in_hand`, `eye_in_hand_interfaces`로 정리했습니다.
-- 발표자료와 압축본은 `docs/archive/`로 분리해 두었습니다.
-- `data/`는 세션 로그나 로컬 측정 데이터 보관 용도로 유지합니다.
+- 발표자료와 압축본은 `docs/archive/`에 `eye-in-hand-visual-servoing-*` 형식으로 정리했습니다.
+- `data/`는 필요 시 세션 로그나 로컬 측정 데이터를 두는 선택적 로컬 디렉토리입니다.
